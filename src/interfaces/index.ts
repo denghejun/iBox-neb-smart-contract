@@ -1,2 +1,2 @@
-export * from './iBox'
-export * from './nebulas'
+export * from './iBox/index'
+export * from './nebulas/index'

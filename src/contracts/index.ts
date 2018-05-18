@@ -1,1 +1,1 @@
-export * from './iBox'
+export * from './iBox/index'

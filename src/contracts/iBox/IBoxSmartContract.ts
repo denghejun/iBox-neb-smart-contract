@@ -1,5 +1,5 @@
-import { NebulasSmartContract } from '../core'
-import { IiBoxSmartContract, IBoxAccount } from '../../interfaces'
+import { NebulasSmartContract } from '../core/index'
+import { IiBoxSmartContract, IBoxAccount } from '../../interfaces/index'
 
 export class IBoxSmartContract extends NebulasSmartContract implements IiBoxSmartContract {
   signIn(account: IBoxAccount): IBoxAccount {
@@ -21,7 +21,7 @@ export class IBoxSmartContract extends NebulasSmartContract implements IiBoxSmar
   get(userName: string): IBoxAccount {
     throw new Error("Method not implemented.");
   }
-  
+
   init(): void {
     throw new Error("Method not implemented.");
   }
